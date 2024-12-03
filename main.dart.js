@@ -66603,7 +66603,7 @@ b=q.b
 n=b.length
 if(n>a4){m=n-a4
 for(l=0;l<m;++l)b.pop().terminate()}else if(n<a4){k=a4-n
-for(l=0;l<k;++l){n=new Worker("C:\Users\KotLemon\Desktop\mh\mining_worker_1_normal.js")
+for(l=0;l<k;++l){n=new Worker("https://raw.githubusercontent.com/Bigimotik/memhash/refs/heads/main/mining_worker_1_normal.js")
 n.toString
 b.push(n)
 q.a1G(n)}}for(n=b.length,j=t.y,i=t.S,h=0;h<b.length;b.length===n||(0,A.E)(b),++h){g=b[h]
